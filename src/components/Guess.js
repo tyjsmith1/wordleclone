@@ -13,7 +13,7 @@ function Guess({ word, guess, isGuessed}) {
                     ? 'bg-gradient-to-br from-orange-400 to-yellow-400'
                     : 'bg-black'
                 return (
-                    <div className={`text-xl font-bold rounded-md w-14 h-14 border border-gray-400 text-gray-100 uppercase flex items-center justify-center ${bgColor}`} key={i}>{guess[i]}</div>
+                    <div className={`text-2xl font-bold rounded-md w-14 h-14 border border-gray-400 text-gray-100 uppercase flex items-center justify-center ${bgColor}`} key={i}>{guess[i]}</div>
                 )
             })}
         </div>

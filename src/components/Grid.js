@@ -2,11 +2,6 @@ import React, {useEffect, useState} from "react";
 import wordBank from '../wordbank.json'
 
 export default function Grid() {
-    const testWordle = 'dream'
-    const testGuessOne = 'dream'
-    const testGuessTwo = 'other'
-    const testGuessThree = 'dryer'
-    const testGuessFour = 'fish'
 
     const [guess, setGuess] = useState("")
     const [guessWordArray, setGuessWordArray] = useState([])

@@ -23,13 +23,13 @@ function Qwerty({ exactGuesses, inexactGuesses, nonGuesses, onKeyPress }) {
                         return (
                             <div 
                                 key={keyIndex}
-                                className={`${bgColor} font-bold m-1 flex w-7 h-12 rounded-md justify-center items-center uppercase cursor-pointer`}
+                                className={`${bgColor} font-bold m-1 flex w-8 h-12 rounded-md justify-center items-center uppercase cursor-pointer`}
                                 onClick={()=> onKeyPress(key)}>{key}</div>
                         )
                     })}
 
                     {rowIndex === 2 && (
-                        <div className="bg-gray-200 m-1 flex w-14 h-12 rounded-md justify-center items-center uppercase"
+                        <div className="bg-gray-200 m-1 flex w-14 h-12 rounded-md justify-center items-center"
                         onClick={()=> onKeyPress('Backspace')}><BsBackspaceFill size={25}/></div>
                     )}
                 </div>
